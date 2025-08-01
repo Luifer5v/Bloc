@@ -1,0 +1,53 @@
+body {
+background-color: #000000; /* Gris oscuro casi negro */
+  color: #ffffff; /* Texto blanco para contraste */
+  border-radius: 20px; /* Bordes redondeados */
+  margin: 20px; /* Espacio para que se vea el borde redondeado */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  background-color: #1c1c1c;
+  color: #fff;
+  border-radius: 30px;
+  max-width: 500px;
+  margin: 40px auto;     /* CENTRADO HORIZONTAL */
+  padding: 40px;
+  text-align: center;    /* CENTRA TEXTO INTERNO */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+img {
+  width: 200px;           /* O el tamaño que desees */
+  height: 200px;          /* Igual al ancho para que sea circular */
+  object-fit: cover;      /* Para recortar bien si no es cuadrada */
+  border-radius: 50%;     /* Esto hace que sea redonda */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Opcional: sombra */
+}
+h2 { color: #b6ff00;   /* Verde pollito */
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+}h3 {
+  font-size: 0.9rem;     /* Tamaño menor a 1rem */
+ 
+
+  }
+   div {
+  background-color: #2e2e2e; /* Gris oscuro más claro */
+  padding: 20px;
+  margin: 10px auto;        /* Centrado horizontal con espacio arriba y abajo */
+  border-radius: 15px;
+  color: white;
+  max-width: 400px;         /* Ancho máximo más pequeño */
+  width: 90%;               /* Ancho relativo para que se adapte en móviles */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+    
+  }
+
+div:hover {
+  background-color: #b6ff00; /* Verde pollito */
+  color: #000; /* Cambia el texto a negro para contraste */
+  box-shadow: 0 0 15px #b6ff00; /* Sombra verde */
+}
