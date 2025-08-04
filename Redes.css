@@ -5,6 +5,8 @@ background-color: #000000; /* Gris oscuro casi negro */
   margin: 20px; /* Espacio para que se vea el borde redondeado */
   padding: 20px;
   font-family: Arial, sans-serif;
+  align-items: center;
+  
 }
 
 section {
